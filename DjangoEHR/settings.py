@@ -1,4 +1,3 @@
-
 import os
 from pathlib import Path
 from django.contrib.messages import constants as messages
@@ -91,13 +90,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
         'USER': 'Youssef_Hassanien',
-        'PASSWORD': 'Youssef.17.11',
+        'PASSWORD': '3.8.2004',
         'HOST': 'youssefhassaniendatabase.postgres.database.azure.com',
         'PORT': '5432',
         'OPTIONS':{'sslmode':'require'},
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
